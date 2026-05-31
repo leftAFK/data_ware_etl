@@ -14,13 +14,13 @@ build/
 # Spark
 metastore_db/
 warehouse/
+spark-warehouse/
 derby.log
 *.log
-spark-warehouse/
 
 # Airflow
 airflow.cfg
-airflow.db
+airflow.db*
 logs/
 *.pid
 *.db-journal
