@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.env
+.venv/
+venv/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# Spark
+metastore_db/
+warehouse/
+derby.log
+*.log
+spark-warehouse/
+
+# Airflow
+airflow.cfg
+airflow.db
+logs/
+*.pid
+*.db-journal
+webserver_config.py
+standalone_admin_password.txt
+simple_auth_manager_passwords.json.generated
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Project specific
+quality_reports/
+*.json
+temp/
+tmp/
